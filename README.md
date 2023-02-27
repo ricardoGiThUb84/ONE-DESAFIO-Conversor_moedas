@@ -30,7 +30,7 @@ O conversor universal foi desenvolvido para ser um meio rápido e dinâmico para
 
 ## 📁 Acesso ao projeto
 
-Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/gui-lirasilva/Edige-POO/tree/master/src).
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/ricardoGiThUb84/ONE-DESAFIO-Conversor_moedas/tree/main/src).
 
 ## 🛠️ Abrir e rodar o projeto
 
