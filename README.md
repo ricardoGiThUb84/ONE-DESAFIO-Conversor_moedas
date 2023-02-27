@@ -1,4 +1,4 @@
-<img src="/home/ricardo/Documents/Trilhas/ONE/Challenge-java-conversor/conversor moedas/src/Filter-amico.svg" width="250"/>
+<img src="https://user-images.githubusercontent.com/94012401/221494305-ec980c8e-d25c-4235-b71c-16007a5d3404.svg" width="250px"/>
 
 # Conversor Universal
 
@@ -26,7 +26,7 @@ O conversor universal foi desenvolvido para ser um meio rápido e dinâmico para
 
 ## Demonstração
 
-<img src="/home/ricardo/Documents/Trilhas/ONE/Challenge-java-conversor/conversor moedas/src/2023-02-26 19-32-22 (online-video-cutter.com).gif" width="450"/>
+![2023-02-26 19-32-22 (online-video-cutter com)](https://user-images.githubusercontent.com/94012401/221494171-642b8cd3-b5d7-44b7-9c18-6a8494c9b3c4.gif)
 
 ## 📁 Acesso ao projeto
 
