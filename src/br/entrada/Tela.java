@@ -6,6 +6,7 @@ import br.exceptions.ValorInvalidoException;
 
 import javax.swing.*;
 import java.util.Arrays;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -27,8 +28,11 @@ public class Tela {
 
             case "Conversor de Moedas":
 
-                Map<String, String> conversores = Arrays.stream(CONVERSOR_MOEDAS.values())
-                        .collect(Collectors.toMap(CONVERSOR_MOEDAS::toString, CONVERSOR_MOEDAS::getLabel));
+                final Map<String, String> conversores = new LinkedHashMap<>();
+
+                Arrays.stream(CONVERSOR_MOEDAS.values()).collect(Collectors.toList()).forEach(
+                        s -> conversores.put(s.toString(), s.getLabel())
+                );
 
                 final CONVERSOR_MOEDAS conversorMoedas = Enum
                         .valueOf(CONVERSOR_MOEDAS.class, prompt
@@ -39,8 +43,11 @@ public class Tela {
 
             case "Conversor de Medidas":
 
-                Map<String, String> conversoresMedidas = Arrays.stream(CONVERSOR_MEDIDAS.values())
-                        .collect(Collectors.toMap(CONVERSOR_MEDIDAS::toString, CONVERSOR_MEDIDAS::getLabel));
+                final Map<String, String> conversoresMedidas = new LinkedHashMap<>();
+
+                Arrays.stream(CONVERSOR_MEDIDAS.values()).collect(Collectors.toList()).forEach(
+                        s -> conversoresMedidas.put(s.toString(), s.getLabel())
+                );
 
                 final CONVERSOR_MEDIDAS conversorM = Enum
                         .valueOf(CONVERSOR_MEDIDAS.class, prompt.escolherOpcaoConversao(conversoresMedidas,
@@ -53,6 +60,7 @@ public class Tela {
 
                 Map<String, String> conversorTemperatura = Arrays.stream(CONVERSOR_TEMPERATURA.values())
                         .collect(Collectors.toMap(CONVERSOR_TEMPERATURA::toString, CONVERSOR_TEMPERATURA::getLabel));
+
 
                 final CONVERSOR_TEMPERATURA conversorT = Enum.valueOf(CONVERSOR_TEMPERATURA.class,
                         prompt.escolherOpcaoConversao(conversorTemperatura, "Conversor Temperaturas",
