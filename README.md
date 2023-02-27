@@ -39,6 +39,7 @@ Após baixar o projeto, você pode abrir com o IntelliJ IDEA. Para isso, abra a 
 - **Projects | Open**
 - Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
 - Selecione o projeto e a ide irá abri-lo.
+- Vá no diretório src/ e abra o arquivo SistemaConversor e o execute.
 
 ## Técnicas e tecnologias utilizadas
 
